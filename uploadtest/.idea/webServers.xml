@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e15d647-d4e9-4ce9-a3c8-6a6199a98f18" name="localhost" url="http://192.168.21.185:8080">
+        <fileTransfer host="localhost/uploadtest" port="21">
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
