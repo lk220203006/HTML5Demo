@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style type="text/css">
-        .father{
-            font-size: 60px;
-            color: red;
+        /*.father{*/
+            /*font-size: 60px;*/
+            /*color: red;*/
+        /*}*/
+        /*p{*/
+            /*font-size: 20px;*/
+            /*color: blue;*/
+        /*}*/
+        /*#box{*/
+            /*color: green;*/
+            /*font-size: 100px;*/
+        /*}*/
+        p.son{
+            font-size: 40px;
+            color: yellow;
         }
         p{
-            font-size: 20px;
+            font-size: 30px;
+            color: red;
+        }
+        .father .son{
+            font-size: 50px;
+            color: pink;
+        }
+        .son{
+            font-size: 60px;
             color: blue;
         }
-        #box{
-            color: green;
-            font-size: 100px;
+        .father #baby{
+            font-size: 12px;
+            color: orange;
         }
     </style>
 </head>
 <body>
     <div class="father" id="box">
-        <p>14期威武</p>
+        <p class="son" id="baby">14期威武</p>
     </div>
 </body>
 </html>
