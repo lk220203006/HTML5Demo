@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*table{*/
+            /*width: 300px;*/
+            /*height: 500px;*/
+            /*border: 1px solid red;*/
+            /*border-collapse: collapse; !*表格的两边框合并为一条*!*/
+        /*}*/
+        /*td{*/
+            /*border: 1px solid red;*/
+        /*}*/
+        .username{
+            border: 0px none;
+            outline-style: none;
+            background: #cccccc;
+            border: 1px dashed green;
+        }
+        .username:focus{
+            background: red;
+        }
+        .email{
+            border: 0px none;
+            outline-style: none;
+            border-bottom: 1px dotted red;
+        }
+        .search{
+            border: 0px none;
+            outline-style: none;
+            border: 1px solid #999999;
+            background: url("./search.png") no-repeat right;
+        }
+    </style>
+</head>
+<body>
+    <!--<table>-->
+        <!--<tr>-->
+            <!--<td></td>-->
+            <!--<td></td>-->
+            <!--<td></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td></td>-->
+            <!--<td></td>-->
+            <!--<td></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td></td>-->
+            <!--<td></td>-->
+            <!--<td></td>-->
+        <!--</tr>-->
+    <!--</table>-->
+    <!--label for id 获取光标焦点-->
+    <label for="username">用户名：</label><input type="text" class="username" id="username"><br>
+    邮箱：<input type="text" class="email"><br>
+    搜索一下：<input type="text" class="search"><br>
+</body>
+</html>
