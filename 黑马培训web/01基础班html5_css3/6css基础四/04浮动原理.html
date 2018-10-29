@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--元素浮动之后不占据原来的位置-->
+    <!--浮动的盒子在一行上显示-->
+    <!--行内元素浮动之后转换为行内块元素（不推荐使用，转行内元素最好使用display：inline-block）-->
     <meta charset="UTF-8">
     <title>Document</title>
+    <style type="text/css">
+        .red,.green,.blue{
+            width: 200px;
+            height: 200px;
+        }
+        .red{
+            background: red;
+            float: left;
+        }
+        .green{
+            background: green;
+            float: left;
+        }
+        .blue{
+            background: blue;
+            float: right;
+        }
+        span{
+            /*display: inline;*/
+            float: left;
+            background: orange;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="red"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+    <span></span>
 </body>
 </html>
